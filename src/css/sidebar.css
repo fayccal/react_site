@@ -1,0 +1,70 @@
+.myName {
+    color: blueviolet;
+    text-align: center;
+}
+
+.myIMG {
+    text-align: center;
+}
+.myFace {
+    border-radius: 50%;
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.myEmail {
+    color: blueviolet;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+nav {
+    /*CARE HERE*/
+    /*margin-left: -22%;*/
+    margin-top: -1.5%;
+    padding-bottom: 100%;
+    position: fixed;
+    width: 20%;
+    
+    /*border-right: 5px solid blueviolet;*/
+    
+}
+
+.bloqueur {
+    background: rgb(15, 15, 15);;
+    height: 100vh;
+}
+
+.module-border-wrap {
+  max-width: 250px;
+  padding: 1rem;
+  position: relative;
+  background: linear-gradient(to right, red, purple);
+  padding: 3px;
+}
+
+.module {
+  background: #222;
+  color: white;
+  padding: 2rem;
+}
+
+li {
+    margin-bottom: 10px;
+    margin-left: -40px;
+}
+ul {
+    text-align: center;
+    list-style: inside;
+    list-style-type: none;
+    
+}
+
+
+a {
+    color: blueviolet;
+}
+
+
+/*border: 1px solid rgba(211, 211, 211, 0.397);*/

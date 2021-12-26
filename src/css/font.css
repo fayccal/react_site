@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'Lora';
+    src:url('../font/static/Lora-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Merriweath';
+    src:url('../font/Merri/Merriweather-Regular.ttf');
+}
+
+
+
+.titleFont {
+    /*font-family: Arial, Helvetica, sans-serif;*/
+    font-size: 300%;
+    color: blueviolet;
+}
+
+.coloronly {
+    color:blueviolet;
+}
+
+.fontS {
+    font-size: 150%;
+}

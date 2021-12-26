@@ -1,0 +1,250 @@
+.MargeSide {
+    margin-left: 2%;
+}
+
+.NameBig {
+    background: -webkit-linear-gradient(45deg, hsl(243, 100%, 59%), #00ff95 100%);
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-weight: 700;
+	font-size: 290%;
+    display: inline;
+}
+
+.preTitle {
+	font-size: 230%;
+}
+
+.particlejs {
+	position:absolute;
+    top: 25%;
+    bottom: 0;
+	left: 22%;
+	right: 0;
+}
+
+.animated_text {
+	font-size: 180%;
+	font-weight: bold;
+}
+
+.MLanguage {
+    border-radius: 50%;
+}
+
+.toleft {
+    text-align: center;
+}
+
+.equalSize {
+    display: flex;
+}
+
+.divtd {
+    display: table-cell;
+}
+
+.colorB {
+    background-color: black;
+    
+}
+
+.flexVerti {
+    display: flex;
+    flex-direction: column;
+}
+
+.bcolor {
+    background-color: red;
+}
+
+.fleft {
+    float: left;
+    display: block;
+    
+    width: 25%;
+}
+
+.fright {
+    float: right;
+    width: 40%;
+}
+
+.cpos {
+    text-align: center;
+}
+
+.alpos {
+    margin-top: 3%;
+}
+
+.fsolo {
+    flex-basis: 100%;
+    text-align: center;
+    /*font-size: 20px;*/
+}
+
+.fbase {
+    flex-basis: 100%;
+    text-align: center;
+    font-size: 10em;
+    
+}
+
+.fexp {
+    font-size: 4em;
+}
+
+@media only screen and (max-width: 600px) {
+    .fbase{
+      font-size: 2em;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .fbase{
+        font-size: 6em;
+      }
+      .fexp {
+        font-size: 2em;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .fbase{
+        font-size: 4em;
+      }
+
+      .fexp {
+        font-size: 2em;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .fbase{
+        font-size: 8em;
+      }
+    
+    .fexp {
+        font-size: 3em;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .fbase{
+        font-size: 10em;
+      }
+
+    .fexp {
+        font-size: 4em;
+    }
+}
+
+.XP {
+    /*position: relative;*/
+    flex-basis: 100%;
+    margin: 20px;
+    text-align: center;
+    /*border-radius: 25px;
+    border: 2px solid #73AD21;*/
+    padding: 20px; 
+    width: auto;
+    height: auto;
+    /*margin-bottom: 2em;*/
+}
+
+.Project {
+    
+    margin: 20px;
+    padding: 20px; 
+    width: auto;
+    height: auto;
+}
+
+.XPUP {
+    text-align: center;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 20px; 
+    width: 200px;
+    height: 50px; 
+    margin-bottom: 0%;
+}
+
+.XPDOWN {
+    text-align: center;
+    border-bottom-right-radius: 35px;
+    border-bottom-left-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 20px; 
+    width: 200px;
+    height: 150px;
+    margin-top: 0%; 
+}
+
+.rounded {
+    border-radius: 25px;
+}
+
+    /*animate the background gradient position, use vh so that start/end syncs up viewport horizontal*/
+    @keyframes rainbow {
+        from {background-position: -100vh 0}
+        to {background-position: 100vh 0}
+    } 
+    
+    /*compatibility*/
+    @-moz-keyframes rainbow {
+        from {background-position: -100vh 0}
+        to {background-position: 100vh 0}
+    }
+    @-webkit-keyframes rainbow {
+        from {background-position: -100vh 0}
+        to {background-position: 100vh 0}
+    }
+    @-ms-keyframes rainbow {
+        from {background-position: -100vh 0}
+        to {background-position: 100vh 0}
+    }
+    @-o-keyframes rainbow {
+        from {background-position: -100vh 0}
+        to {background-position: 100vh 0}
+    }
+    
+     .rainbow {
+      border-right: double 0.3em transparent;
+      border-radius: 10px;
+         /*added a colourstop here, without the third colourstop you get a hard edge*/
+      background: linear-gradient(black, black), 
+      repeating-linear-gradient(to right,    
+      hsl(224, 85%, 66%),
+      hsl(256, 85%, 66%),
+      hsl(269, 85%, 66%),
+      hsl(314, 85%, 66%),
+      hsl(359, 85%, 66%),
+      hsl(44, 85%, 66%),
+      hsl(89, 85%, 66%),
+      hsl(134, 85%, 66%),
+      hsl(179, 85%, 66%),
+      hsl(202, 85%, 66%));
+      background-origin: border-box;
+      background-clip: content-box, border-box;
+    
+    
+      animation: 20s linear 1s infinite alternate rainbow;
+                /*animation-name: rainbow;
+                animation-duration:  20s;*/
+    
+                /*set animation to continue forever, and to move at a single rate instead of easing*/
+                /*animation-iteration-count: infinite;
+                animation-timing-function: linear;*/
+    }
+    
+body {
+    color: rgb(189, 182, 182);
+    background-color: rgb(15, 15, 15);
+    /*background-color: antiquewhite;*/
+    /*margin-left: 22%;*/
+    /*margin-left: 1%;*/
+}
